@@ -153,13 +153,20 @@
     </div>
 
     <!-- The Modal -->
-    <div id="results-modal" class="modal" style="display:none;">
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2 id="match-name"></h2>
-        <img id="match-image" src="" />
+    <div id="results-modal" class="modal bd-example-modal-lg" role="dialog" tabindex="-1" style="display:none;">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Your Best Match!</h5>
       </div>
+      <!-- Modal content -->
+      <div class="modal-body">
+        <button type="button" class="close"><span>&times;</span></button>
+        <h2 id="match-name"></h2>
+        <img id="match-image" src="" class="img-fluid" />
+      </div>
+    </div>
+    </div>
     </div>
 
     <script>
